@@ -1,0 +1,53 @@
+node_modules
+*.log
+.idea/**
+.vscode/
+.DS_Store
+
+*.js
+!jest.config.js
+!index.js
+!index.go
+*.d.ts
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# exclude dirs
+!lambda_src
+
+
+# Node artifact files
+node_modules/
+dist/
+
+# JetBrains IDE
+/.idea/
+
+# Unit test reports
+TEST*.xml
+
+# cdk
+!/lib/
+!/test/
+!.eslintignore
+!.eslintrc.js
+!.npmignore
+!cdk.json
+!tsconfig.json
+!package.json
+!package-lock.json
+
+# Folders
+/test/__snapshots__/
+/test-results/
+/.tests/junit.xml
+cdk.out/
+coverage/
+test-results/
+
+# Files
+test-report.xml
+!.meta-repo.yml
+!.npmrc

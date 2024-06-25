@@ -1,0 +1,11 @@
+{
+  "detail": {
+    "restoreTestingPlanArn": "arn:aws:backup:eu-west-1:314842100699:restore-testing-plan:BackupRestoreTestingPlan-f598792b-4311-41c3-8749-1d2c279e62bc",
+    "resourceType": "EC2",
+    "createdResourceArn": "arn:aws:ec2:eu-west-1:314842100699:instance/i-0007666239101b9a3",
+    "restoreJobId": "81A15A36-6C01-5C7F-A00E-C47B725E1264"
+  }
+}
+
+
+

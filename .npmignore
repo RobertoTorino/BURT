@@ -1,0 +1,13 @@
+*.ts
+!*.d.ts
+!index.js
+package-lock.json
+.DS_Store
+.vscode/
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# exclude dirs
+!lambda_src

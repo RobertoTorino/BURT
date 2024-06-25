@@ -1,0 +1,11 @@
+{
+  "detail": {
+    "restoreTestingPlanArn": "[restoreTestingPlanArn]",
+    "resourceType": "RDS",
+    "createdResourceArn": "[createdResourceArn]",
+    "restoreJobId": "[restoreJobId]"
+  }
+}
+
+
+

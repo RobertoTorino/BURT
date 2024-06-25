@@ -1,0 +1,34 @@
+{
+  "name": "burt",
+  "version": "0.1.0",
+  "bin": {
+    "index": "bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "purge modules": "rm -rvf node_modules",
+    "purge lockfile": "rm package-lock.json",
+    "purge cdk.out": "rm -rvf cdk.out",
+    "purge cache": "npm cache clean -f"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "20.12.7",
+    "aws-cdk": "2.142.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.4.5"
+  },
+  "dependencies": {
+    "@aws-sdk/client-backup": "^3.577.0",
+    "@aws-sdk/client-ec2": "^3.577.0",
+    "@aws-sdk/client-rds": "^3.581.0",
+    "aws-cdk-lib": "2.142.1",
+    "cdk-dia": "^0.11.0",
+    "constructs": "^10.0.0"
+  }
+}
