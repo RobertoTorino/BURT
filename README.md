@@ -112,7 +112,7 @@ console.**
 > - **Open the AWS Backup console at https://console.aws.amazon.com/backup.**
 > - **In AWS Backup choose Protected resources and the Amazon RDS resource ID you want to restore.**
 > - **In the upper-right corner, choose Restore.**
-> - **For instance specifications accept the defaults or specify the options for the DB engine, License Model, DB instance class, Multi AZ, and Storage type settin[tree.json](cdk.out%2Ftree.json)gs.**
+> - **For instance specifications accept the defaults or specify the options for the DB engine, License Model, DB instance class, Multi AZ, and Storage type settings.**
 > - **For availability and durability choose your option.**
 > - **! Important ! For Settings choose the exact same DB instance identifier as used for the "old" RDS, this makes sure your connection stays intact and your endpoint is not changed.**
 > - **For Network and security accept the defaults or specify the options for the Virtual Private Cloud (VPC), Subnet group, Public Accessibility (usually Yes), and Availability zone settings.**
